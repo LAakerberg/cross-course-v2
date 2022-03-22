@@ -1,0 +1,128 @@
+/* Index main content */
+
+.campaign {
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.main-content-bottom {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.new-jackets {
+  position: relative;
+}
+
+.adventure {
+  position: relative;
+}
+
+.new-adventure__image {
+  width: 100%;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.top-text {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+main a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: #000;
+  display: inline-block;
+}
+
+/* Index main weekly discount */
+
+.weekly {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.discount h1 {
+  padding-left: 14px;
+}
+
+.product {
+  background-color: #fff;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 131px;
+}
+
+.products__image {
+  max-width: 131px;
+}
+
+.video {
+  position: relative;
+}
+
+.video2 {
+  margin: 0px auto;
+  width: 100%;
+  height: 100%;
+}
+
+/* become a member content */
+
+.become-member {
+  flex: 1;
+  background-color: #e6eaef;
+  padding: 20px;
+  position: relative;
+}
+
+.become-member .bottom-text {
+  position: absolute;
+  bottom: 35px;
+  left: 30px;
+  padding: 8px 15px 8px 15px;
+}
+
+.become-member__image {
+  width: 100%;
+  max-height: 400px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
