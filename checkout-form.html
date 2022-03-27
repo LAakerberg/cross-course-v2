@@ -71,10 +71,10 @@
     <main>
       <div class="checkout-road">
         <div class="order-road">
-          <p><span class="order-active">Checkout</span> ---></p>
+          <p><span class="order-passed">Checkout</span> ---></p>
         </div>
         <div class="order-road">
-          <p><span class="order-inactive">Confirm order details</span> ---></p>
+          <p><span class="order-active">Confirm order details</span> ---></p>
         </div>
         <div class="order-road">
           <p>
@@ -85,6 +85,59 @@
       <div class="main-content checkout">
         <div class="carter">
           <span class="material-icons shopping_bag"> shopping_bag </span>
+        </div>
+        <div class="checkout-form">
+          <form>
+            <div>
+              <input
+                type="text"
+                name="firstname"
+                id="name"
+                placeholder="First name"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Last name"
+              />
+            </div>
+            <div>
+              <input
+                type="tel"
+                name="telephone"
+                id="telephone"
+                placeholder="Telephone"
+              />
+            </div>
+            <div>
+              <input type="email" name="email" id="email" placeholder="email" />
+            </div>
+            <div>
+              <input
+                type="number"
+                name="credit"
+                id="credit"
+                placeholder="Creditcard number"
+              />
+            </div>
+            <div>
+              <input
+                type="number"
+                name="securenumb"
+                id="securenumb"
+                placeholder="Secure number"
+              />
+              <input
+                type="date"
+                name="valid"
+                id="valid"
+                placeholder="Valid date"
+              />
+            </div>
+          </form>
         </div>
         <div class="carter text">
           <p>
@@ -114,8 +167,8 @@
           <h1>1290,- NOK</h1>
         </div>
         <div class="carter buy">
-          <a href="checkout-form.html" class="cta">Purchase</a>
-          <a href="jackets-specific-cart.html" class="cta">Cancel</a>
+          <a href="checkout-page-success.html" class="cta">Purchase</a>
+          <a href="checkout-page.html" class="cta">Cancel</a>
         </div>
       </div>
     </main>

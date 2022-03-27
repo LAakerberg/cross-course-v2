@@ -27,6 +27,32 @@ p {
   color: #565939;
 }
 
+body {
+  min-height: 100vh;
+  margin: 0px auto;
+  background-color: #fff;
+  font-family: "Bahnschrift", Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.header-background {
+  min-height: 300px;
+  background-image: url("../images/austin-ban-juHayWuaaoQ-unsplash-2000.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 65%;
+  position: relative;
+  justify-content: right;
+}
+
+/* 
 header {
   background-image: url("../images/austin-ban-juHayWuaaoQ-unsplash-900width-300height.jpg");
   background-size: cover;
@@ -37,6 +63,7 @@ header {
   position: relative;
   justify-content: right;
 }
+*/
 
 header .logo {
   object-position: left top;
@@ -54,23 +81,15 @@ header label {
   border-radius: 20px;
 }
 
-body {
-  min-height: 100vh;
-  max-width: 1000px;
-  margin: 0px auto;
-  background-color: #fff;
-  font-family: "Bahnschrift", Arial, Helvetica, sans-serif;
-}
-
 main {
   background-color: #e6eaef;
   padding: 10px;
- 
 }
 
 footer {
   background-color: #b4bfcc;
   min-height: 100px;
+  width: 100%;
   margin: auto;
 }
 
@@ -86,7 +105,7 @@ footer a:hover {
 .footer-links {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding-top: 10px;
   margin: 0px auto;
 }
 
@@ -101,7 +120,6 @@ p {
 
 .nav-background {
   background-image: linear-gradient(#7b94b4, #525e6e);
-  max-width: 1000px;
   min-height: 40px;
   padding: 0px;
 }
@@ -125,6 +143,7 @@ nav a:hover {
 
 .activenav {
   text-decoration: underline;
+  background-image: linear-gradient(#525e6e, #7b94b4);
   border-inline: solid;
   border-width: 3px;
   border-color: #000;
@@ -142,7 +161,6 @@ nav li a {
   padding-top: 5px;
   min-height: 35px;
 }
-
 
 #hamburger-menu {
   display: none;
@@ -174,7 +192,7 @@ a {
 
 .active {
   background-image: linear-gradient(#010811, #000000);
- }
+}
 
 /* Global main content */
 
@@ -191,7 +209,7 @@ a {
 
 .top-menu {
   position: absolute;
-  top: 0px;
+  top: 5px;
   right: 10px;
   padding: 5px 15px 0px 15px;
 }
@@ -199,7 +217,6 @@ a {
 .top-menu a {
   text-decoration: none;
   color: rgb(238, 238, 238);
-
 }
 
 .top-menu a:hover {
@@ -209,15 +226,21 @@ a {
 
 /* Google icon */
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { 
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
   font-size: 36px;
   padding: 0px;
   margin: 0px 5px 0px 5px;
- }
-.material-icons.md-48 { font-size: 48px; }
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 .active-cart {
   color: red;
- }
+}

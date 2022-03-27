@@ -4,18 +4,23 @@
   flex: 1;
   padding: 5px;
   margin: 5px;
+  text-align: center;
+}
+
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid blue;
+  max-width: 1800px;
+  text-align: center;
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
   margin: auto;
-}
-
-.main-content-bottom {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+  border: 1px solid black;
 }
 
 .new-jackets {
@@ -26,11 +31,18 @@
   position: relative;
 }
 
-.new-adventure__image {
+.jackets__image {
   width: 100%;
-  border-radius: 5%;
-  border-style: solid;
-  border-width: 2px;
+  max-width: 1000px;
+  border-radius: 10% 0% 0% 10%;
+  border: 1px solid black;
+}
+
+.adventure__image {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 0% 10% 10% 0%;
+  border: 1px solid black;
 }
 
 .bottom-text {
@@ -57,6 +69,14 @@
   padding: 10px 15px 10px 15px;
   border-style: solid;
   border-width: 1px;
+  transition-duration: 0.4s;
+}
+
+.top-text:hover,
+.bottom-text:hover {
+  transition-duration: 0.4s;
+  font-size: 1.3em;
+  background-color: rgba(227, 190, 136, 1);
 }
 
 main a {
@@ -79,6 +99,7 @@ main a:hover {
 
 .discount h1 {
   padding-left: 14px;
+  display: none;
 }
 
 .product {

@@ -15,7 +15,7 @@
       src="https://kit.fontawesome.com/b318972c4d.js"
       crossorigin="anonymous"
     ></script>
-    <title>Rainydays | Your purchase was successful</title>
+    <title>Rainydays | Checkout page</title>
 
     <!-- Hotjar Tracking Code for https://inspiring-knuth-8ea2c0.netlify.app/ -->
     <script>
@@ -37,62 +37,79 @@
 
   <body>
     <header>
-      <div class="header-background">
-        <section class="nav-background">
-          <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-          <input type="checkbox" id="hamburger-menu" />
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="jackets.html" class="activenav">Products</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </section>
+      <div class="nav-background">
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <li><a href="index.html" class="activenav">Home</a></li>
+            <li><a href="jackets.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <a href="index.html"
-        ><img
-          src="images/RainyDays_Logoheader-copy.png"
-          alt="Our logo for Rainydays"
-          class="logo"
-      /></a>
-      <div class="top-menu">
-        <a href=".."
-          ><span class="material-icons md-36">account_circle</span></a
-        >
-        <a href=".."><span class="material-icons md-36">search</span></a>
-        <a href=".."><span class="material-icons md-36">room</span></a>
-        <a href="checkout-page.html"
-          ><span class="material-icons md-36">shopping_cart</span></a
-        >
+      <div class="header-background">
+        <a href="index.html"
+          ><img
+            src="images/RainyDays_Logoheader-copy.png"
+            alt="Our logo for Rainydays"
+            class="logo"
+        /></a>
+        <div class="top-menu">
+          <a href=".."
+            ><span class="material-icons md-36">account_circle</span></a
+          >
+          <a href=".."><span class="material-icons md-36">search</span></a>
+          <a href=".."><span class="material-icons md-36">room</span></a>
+          <a href="checkout-page.html"
+            ><span class="material-icons md-36">shopping_cart</span></a
+          >
+        </div>
       </div>
     </header>
     <main>
       <div class="checkout-road">
         <div class="order-road">
-          <p><span class="order-passed">Checkout</span> ---></p>
+          <p><span class="order-active">Checkout</span> ---></p>
         </div>
-        <div class="order-road">
-          <p><span class="order-passed">Confirm order details</span> ---></p>
-        </div>
-        <div class="order-road">
-          <p>
-            <span class="order-active">Order confirmed</span>
-          </p>
-        </div>
+        <div class="order-road">Confirm order details ---></div>
+        <div class="order-road">Order confirmed</div>
       </div>
       <div class="main-content checkout">
         <div class="carter">
-          <span class="material-icons shopping_bag success">
-            shopping_bag
-          </span>
+          <span class="material-icons shopping_bag"> shopping_bag </span>
         </div>
         <div class="carter text">
-          <p>Your purchased was successful!</p>
+          <p>
+            This is your added product in the carter. To end the purchase, press
+            the purchase button.
+          </p>
+          <p>If you would like to abort, press the cancel button.</p>
         </div>
-        <div class="carter success">
-          <a href="index.html" class="cta">Go back to start</a>
+        <div class="carter-out">
+          <div class="out one">
+            <img
+              src="images/kal-visuals-swFhUaDUVl0-unsplash-small.jpg"
+              alt="Jones Jackets Red outdoor"
+              class="products__image"
+            />
+          </div>
+          <div class="out two">
+            <h3>Jones Jackets</h3>
+            <p>Red outdoor v3</p>
+            <p>1290,- NOK</p>
+          </div>
+          <div class="out three">
+            <span class="material-icons md-24"> disabled_by_default </span>
+          </div>
+        </div>
+        <div class="carter price">
+          <h1>1290,- NOK</h1>
+        </div>
+        <div class="carter buy">
+          <a href="checkout-page-success.html" class="cta">Purchase</a>
+          <a href="jackets-specific-cart.html" class="cta">Cancel</a>
         </div>
       </div>
     </main>

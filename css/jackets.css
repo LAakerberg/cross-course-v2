@@ -19,7 +19,6 @@
   margin: auto;
 }
 
-
 /* Left menu */
 
 .item.menu.specific {
@@ -104,7 +103,7 @@
 }
 
 .product-large img {
-  max-width: 100%;
+  max-width: 60%;
 }
 
 .products__image_thumb {
@@ -134,7 +133,6 @@
   flex: 1;
   max-width: 100%;
   text-align: left;
-
 }
 
 .add-to-cart-buy .link {
@@ -170,15 +168,21 @@
   background-color: #525e6e;
 }
 
-/* Added to cart */ 
+/* Added to cart */
 
 /* Google icon */
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { 
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
   font-size: 36px;
   padding: 0px;
   margin: 0px 5px 0px 5px;
- }
-.material-icons.md-48 { font-size: 48px; }
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}

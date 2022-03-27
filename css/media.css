@@ -5,7 +5,8 @@
     flex-direction: column;
   }
 
-  .weekly, .jacket-list {
+  .weekly,
+  .jacket-list {
     grid-template-columns: repeat(2, 1fr);
     display: grid;
     justify-items: center;
@@ -13,7 +14,6 @@
 }
 
 @media (min-width: 470px) {
-
   nav {
     display: block;
     position: static;
@@ -31,7 +31,7 @@
   }
   .top-menu {
     position: absolute;
-    top: 45px;
+    top: 5px;
     right: 10px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 8px;
@@ -49,10 +49,10 @@
   }
   .add-to-cart-buy {
     flex-direction: row;
-}
+  }
 }
 
-  @media (min-width: 480px) {
+@media (min-width: 480px) {
   .main-content {
     flex-direction: column;
   }
@@ -67,7 +67,7 @@
   .continer {
     display: flex;
     flex-direction: row;
-}
+  }
 }
 
 .content {
@@ -94,43 +94,44 @@
 
 @media (min-width: 559px) {
   .main-content,
-  .main-content-bottom  {
+  .main-content-bottom {
     flex-direction: row;
   }
   .weekly {
     grid-template-columns: repeat(2, 1fr);
     display: grid;
     justify-items: center;
-}
+  }
   .carter-out {
     width: 50%;
   }
 
-@media (min-width: 620px) {
-  .main-content-jacket {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
+  @media (min-width: 620px) {
+    .main-content-jacket {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+    }
   }
-}
 
-@media (min-width: 720px) {
-  .main-content,
-  .main-content-bottom  {
-    flex-direction: row;
+  @media (min-width: 720px) {
+    .main-content,
+    .main-content-bottom {
+      flex-direction: row;
+    }
+    .weekly,
+    .jacket-list {
+      grid-template-columns: repeat(3, 1fr);
+      display: grid;
+      justify-items: center;
+    }
   }
-  .weekly, .jacket-list {
-    grid-template-columns: repeat(3, 1fr);
-    display: grid;
-    justify-items: center;
-  }
-}
 
-@media (min-width: 845px) {
-  .jacket-list {
-    grid-template-columns: repeat(4, 1fr);
-    display: grid;
-    justify-items: center;
+  @media (min-width: 845px) {
+    .jacket-list {
+      grid-template-columns: repeat(4, 1fr);
+      display: grid;
+      justify-items: center;
+    }
   }
-}
 }
