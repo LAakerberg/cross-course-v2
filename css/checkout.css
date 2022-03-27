@@ -33,19 +33,30 @@
   color: red;
 }
 
-.order-confirmed {
-}
-
 .checkout-form {
   text-align: center;
+  margin: 0px auto;
 }
 
 .checkout-form input {
   display: block;
-  min-width: 20%;
-  max-width: 50%;
+  width: 350px;
   padding: 8px;
   margin: 10px 0px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+input[name="securenumb"] {
+  width: 120px;
+}
+
+input[name="valid"] {
+  width: 200px;
 }
 
 .carter {

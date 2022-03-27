@@ -1,9 +1,27 @@
 /* Index main content */
 
+.campaign-left {
+  flex: 1;
+  text-align: right;
+  position: relative;
+}
+
+.campaign-right {
+  flex: 1;
+  text-align: left;
+  position: relative;
+  margin: 0px auto;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
 .campaign {
   flex: 1;
-  padding: 5px;
-  margin: 5px;
   text-align: center;
 }
 
@@ -20,35 +38,28 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  border: 1px solid black;
 }
 
-.new-jackets {
-  position: relative;
-}
-
-.adventure {
-  position: relative;
-}
-
+.adventure__image,
 .jackets__image {
   width: 100%;
   max-width: 1000px;
-  border-radius: 10% 0% 0% 10%;
+  max-height: 550px;
   border: 1px solid black;
 }
 
+.jackets__image {
+  border-radius: 30px 0px 0px 5px;
+}
+
 .adventure__image {
-  width: 100%;
-  max-width: 1000px;
-  border-radius: 0% 10% 10% 0%;
-  border: 1px solid black;
+  border-radius: 0px 5px 30px 0px;
 }
 
 .bottom-text {
   position: absolute;
   bottom: 20px;
-  left: 16px;
+  left: 40px;
   background-color: rgba(227, 190, 136, 0.8);
   border-radius: 8px;
   font-size: 1.2em;
@@ -56,12 +67,13 @@
   padding: 10px 15px 10px 15px;
   border-style: solid;
   border-width: 1px;
+  transition-duration: 0.4s;
 }
 
 .top-text {
   position: absolute;
   top: 15px;
-  right: 16px;
+  right: 40px;
   background-color: rgba(227, 190, 136, 0.8);
   border-radius: 8px;
   font-size: 1.2em;
@@ -99,7 +111,13 @@ main a:hover {
 
 .discount h1 {
   padding-left: 14px;
-  display: none;
+  background-color: rgba(227, 190, 136, 0.8);
+  border-radius: 8px;
+  padding: 10px 15px 10px 15px;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 5px;
+  color: #000;
 }
 
 .product {
@@ -127,10 +145,18 @@ main a:hover {
 /* become a member content */
 
 .become-member {
+  background-image: url(/images/daniel-frank-R5CpX0Ktrzs-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 45%;
+  min-height: 400px;
   flex: 1;
-  background-color: #e6eaef;
   padding: 20px;
   position: relative;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid black;
 }
 
 .become-member .bottom-text {
@@ -142,7 +168,7 @@ main a:hover {
 
 .become-member__image {
   width: 100%;
-  max-height: 400px;
+  height: 300px;
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;

@@ -16,23 +16,6 @@
       crossorigin="anonymous"
     ></script>
     <title>Rainydays | Checkout page</title>
-
-    <!-- Hotjar Tracking Code for https://inspiring-knuth-8ea2c0.netlify.app/ -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 2861415, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
   </head>
 
   <body>
@@ -62,7 +45,7 @@
           >
           <a href=".."><span class="material-icons md-36">search</span></a>
           <a href=".."><span class="material-icons md-36">room</span></a>
-          <a href="checkout-page.html"
+          <a href="carter.html"
             ><span class="material-icons md-36">shopping_cart</span></a
           >
         </div>
@@ -71,45 +54,39 @@
     <main>
       <div class="checkout-road">
         <div class="order-road">
-          <p><span class="order-active">Checkout</span> ---></p>
+          <p><span class="order-active">Carter</span> ---></p>
         </div>
-        <div class="order-road">Confirm order details ---></div>
-        <div class="order-road">Order confirmed</div>
+        <div class="order-road">
+          <p><span class="order-inactive">Checkout</span> ---></p>
+        </div>
+        <div class="order-road">
+          <p><span class="order-inactive">Confirm order details</span> ---></p>
+        </div>
+        <div class="order-road">
+          <p>
+            <span class="order-inactive">Order confirmed</span>
+          </p>
+        </div>
       </div>
       <div class="main-content checkout">
         <div class="carter">
           <span class="material-icons shopping_bag"> shopping_bag </span>
         </div>
         <div class="carter text">
-          <p>
-            This is your added product in the carter. To end the purchase, press
-            the purchase button.
-          </p>
-          <p>If you would like to abort, press the cancel button.</p>
+          <p>Your shopping cart is empty for now...</p>
         </div>
         <div class="carter-out">
-          <div class="out one">
-            <img
-              src="images/kal-visuals-swFhUaDUVl0-unsplash-small.jpg"
-              alt="Jones Jackets Red outdoor"
-              class="products__image"
-            />
-          </div>
-          <div class="out two">
-            <h3>Jones Jackets</h3>
-            <p>Red outdoor v3</p>
-            <p>1290,- NOK</p>
-          </div>
+          <div class="out one"></div>
+          <div class="out two"></div>
           <div class="out three">
             <span class="material-icons md-24"> disabled_by_default </span>
           </div>
         </div>
         <div class="carter price">
-          <h1>1290,- NOK</h1>
+          <h1>0,- NOK</h1>
         </div>
         <div class="carter buy">
-          <a href="checkout-page-success.html" class="cta">Purchase</a>
-          <a href="jackets-specific-cart.html" class="cta">Cancel</a>
+          <a href="jackets.html" class="cta">Go to products</a>
         </div>
       </div>
     </main>

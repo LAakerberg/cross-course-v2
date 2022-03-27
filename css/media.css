@@ -87,7 +87,7 @@
     display: grid;
     justify-items: center;
   }
-  .item {
+  .menu {
     margin: 0px;
   }
 }
@@ -121,7 +121,7 @@
     }
     .weekly,
     .jacket-list {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       display: grid;
       justify-items: center;
     }
@@ -129,9 +129,17 @@
 
   @media (min-width: 845px) {
     .jacket-list {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       display: grid;
       justify-items: center;
     }
+  }
+}
+
+@media (min-width: 1300px) {
+  .weekly {
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    justify-items: center;
   }
 }
