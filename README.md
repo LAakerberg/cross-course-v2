@@ -9,7 +9,7 @@ Here is a screenshots from the desktop version.
 
 ## Description
 
-This is was my second project during my studies at Noroff. This site was built only with HTML & CSS in the first version of the project but have been
+This is was my first ever project during my studies at Noroff. This site was built only with HTML & CSS in the first version of the project but have been
 updated with some few JavaScrpt functions. This is site built for Raindays, here can you find you next hacking gear or just one of the newest jackets for
 outdoor activities. 
 
