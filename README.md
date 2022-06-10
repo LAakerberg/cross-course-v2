@@ -9,20 +9,18 @@ Here is a screenshots from the desktop version.
 
 ## Description
 
-This is my third project during my studies at Noroff. This site is a blog about development and my career as a developer.
-This was made during my studies and just had some simple lorem ipsum text included in the blog posts. 
-
+This is was my second project during my studies at Noroff. This site was built only with HTML & CSS in the first version of the project but have been
+updated with some few JavaScrpt functions. This is site built for Raindays, here can you find you next hacking gear or just one of the newest jackets for
+outdoor activities. 
 
 The site containes:
 - Home page
-- Blogs posts
-- Blogs posts specifics page
+- Product page
+- Products specifics page
 - About page
 - Contact page
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - [HTML](https://html.com/)
 - [CSS](https://www.w3.org/)
