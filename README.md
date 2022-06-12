@@ -1,4 +1,4 @@
-# cross-course-project Rainydays
+# Rainydays - Cross-course project
 
 ## Rainydays 
 
